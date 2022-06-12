@@ -479,6 +479,41 @@ p {
   box-shadow: 0px 0px 18px 0 #0000002c;
   transition: 0.3s ease box-shadow;
 }
+
+#contact .contact-item .form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+#contact .contact-item .form-group input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+#contact .contact-item .form-group input:focus {
+  border: var(--main-bg) solid 5px;
+}
+
+#contact .contact-item .form-group button.btn {
+  width: 100%;
+  cursor: pointer;
+  background-color: var(--main-bg);
+  border-radius: 10px;
+  padding: 10px 5px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+#contact .contact-item .form-group button.btn:hover {
+  opacity: 0.5;
+}
+
 #contact .contact-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
 }
