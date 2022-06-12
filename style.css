@@ -406,6 +406,27 @@ p {
 }
 /* End Projects section */
 
+/* Skills Section Start */
+#skills .skills {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+#skills .skills .all-skills {
+  gap: 2rem;
+  color: var(--main-bg);
+  font-size: 10rem;
+}
+
+#skills .skills .all-skills i {
+  margin-top: 5rem;
+}
+
+/* Skills Section End */
+
 /* About Section */
 #about .about {
   flex-direction: column-reverse;
@@ -497,6 +518,11 @@ p {
 
 #contact .contact-item .form-group input:focus {
   border: var(--main-bg) solid 5px;
+}
+
+#contact .contact-item .form-group textarea {
+  resize: none;
+  padding: 1rem;
 }
 
 #contact .contact-item .form-group button.btn {
@@ -654,6 +680,17 @@ p {
   }
   /* End Project */
 
+  /* Skills Section Start */
+  #skills .skills .all-skills {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  /* Skills Section End */
+
   /* About */
   #about .about {
     flex-direction: row;
@@ -742,6 +779,16 @@ p {
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+
+  /* Skills */
+  #skills .skills .all-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6rem;
   }
 }
 /* End  Media Query For Desktop */
